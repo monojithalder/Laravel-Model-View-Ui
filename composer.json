@@ -1,0 +1,26 @@
+{
+    "name": "novatree/model_view_ui",
+    "description": "Give Model View Ui for developer",
+    "license": "MIT",
+    "keywords": ["model", "view","ui","laravel model view ui","laravel admin","laravel content type","laravel view"],
+    "authors": [
+        {
+            "name": "Monojit Halder",
+            "email": "monojithalder@hotmail.com"
+        },
+        {
+            "name": "Amit Maity",
+            "email": "amit.maity.garia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "illuminate/contracts": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Novatree\\ModelViewUi\\": "src/"
+        }
+    }
+}
