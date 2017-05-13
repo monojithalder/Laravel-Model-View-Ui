@@ -1,2 +1,2 @@
 <?php
-Route::get('/createmodel','UiController@getcreatemodel');
+Route::get('createmodel','Novatree\ModelViewUi\controller\UiController@getcreatemodel');
